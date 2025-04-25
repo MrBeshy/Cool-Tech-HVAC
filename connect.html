@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Connect | Cool‑Tech HVAC</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <script defer src="assets/script.js"></script>
+</head>
+<body>
+<header class="wire-header">
+  <div class="wrap">
+    <a class="logo" href="index.html">
+      <!-- Placeholder for logo -->
+      <div class="img-placeholder logo-placeholder"></div>
+    </a>
+    <nav>
+      <ul>
+        <li><a href="index.html" data-page="home">Home</a></li>
+        <li><a href="services.html" data-page="services">Services</a></li>
+        <li><a href="about.html" data-page="about">About&nbsp;Us</a></li>
+        <li><a href="connect.html" data-page="connect">Connect</a></li>
+        <li><a href="brands.html" data-page="brands">Brands&nbsp;We&nbsp;Use</a></li>
+      </ul>
+    </nav>
+    <button id="careersBtn" class="cta">Careers</button>
+  </div>
+</header>
+<main>
+<section class="wire-section ">
+
+<div class="flex">
+  <div class="col-6">
+    <h1>Let’s Connect</h1>
+    <p>Have a question or need to schedule service? Send us a message:</p>
+    
+<form id="contactForm" class="contact-form">
+  <label>Name*<input type="text" name="name" required></label>
+  <label>Email*<input type="email" name="email" required></label>
+  <label>Phone*<input type="tel" name="phone" required pattern="\d{10}" placeholder="1234567890"></label>
+  <label>Request*<textarea name="request" rows="5" required></textarea></label>
+  <button type="submit" class="cta">Submit</button>
+</form>
+
+  </div>
+  <div class="col-6">
+    
+<address>
+<strong>Cool‑Tech HVAC, Inc.</strong><br>
+110 North Gate Industrial Drive<br>
+Ball Ground, GA 30107<br><br>
+<strong>Satellite:</strong><br>
+1353 Riverstone Parkway Suite 221<br>
+Canton, GA 30114
+</address>
+<p><strong>Phone:</strong> <a href="tel:+17707372525">770‑737‑2525</a></p>
+<p><strong>Email:</strong> <a href="mailto:cooltech@cool-techhvac.com">cooltech@cool-techhvac.com</a></p>
+<p><strong>Hours:</strong> Mon‑Fri 7:30 AM – 4:00 PM<br>Emergency service 24/7/364 (closed Christmas Day)</p>
+
+    <div class="img-placeholder" style="height:200px"><span>Map placeholder</span></div>
+  </div>
+</div>
+
+</section>
+</main>
+<footer class="wire-footer">
+  <p>&copy; 2025 Cool‑Tech HVAC, Inc.</p>
+</footer>
+
+<!-- Careers Modal -->
+<div id="careersModal" class="modal">
+  <div class="modal-box">
+    <button class="close" id="closeModal">&times;</button>
+    <h2>Career Opportunities</h2>
+    <p>We’re always looking for HVAC pros. Email your résumé to <a href="mailto:careers@cool-techhvac.com">careers@cool-techhvac.com</a>.</p>
+  </div>
+</div>
+</body>
+</html>
