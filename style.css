@@ -46,3 +46,11 @@ a{color:var(--blue);}
 .modal-box{background:#fff;padding:2rem;border-radius:8px;max-width:400px;width:90%;position:relative;}
 .modal .close{position:absolute;top:.3rem;right:.5rem;font-size:1.5rem;background:none;border:none;cursor:pointer;}
 .modal.show{display:flex;}
+
+.photo {
+  width: fit-content; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
